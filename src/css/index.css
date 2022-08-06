@@ -46,3 +46,16 @@
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }
+
+/* ===== MARQUEE TEXT SECTION ===== */
+.marquee__text {
+  @apply text-[24px] text-black font-semibold whitespace-nowrap py-6 px-4 bg-[rgba(0,0,0,0.05)];
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translate(-50%);
+  }
+}
