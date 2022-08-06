@@ -130,3 +130,26 @@
 .pricing__content:nth-child(2) .pricing__content-button {
   @apply ring-white bg-white;
 }
+
+/* ===== BLOG PRICING ===== */
+.blog__group {
+  @apply grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] justify-center gap-12;
+}
+.blog__content {
+  @apply grid gap-8 bg-white;
+}
+.blog__content-img {
+  @apply rounded-xl;
+}
+.blog__content-title {
+  @apply text-[20px] text-black font-semibold mb-4;
+}
+.blog__content-info {
+  @apply inline-flex items-center gap-4;
+}
+.blog__content-date {
+  @apply text-[15px] text-grey;
+}
+.blog__content-read {
+  @apply py-1 px-2 text-[15px] text-white bg-black rounded-full;
+}
