@@ -33,7 +33,7 @@
 /* ===== HEADER SECTION ===== */
 @media screen and (max-width: 767px) {
   .header__menu {
-    @apply fixed w-[80%] top-28 left-0 right-0 mx-auto text-center p-8 bg-[rgba(0,0,0,0.1)] rounded-xl transition-all duration-400 opacity-0 scale-y-0 origin-[0%_0%];
+    @apply fixed w-[80%] top-28 left-0 right-0 mx-auto text-center p-8 bg-[#eeeeee] rounded-xl transition-all duration-400 opacity-0 scale-y-0 origin-[0%_0%];
   }
 }
 .header__list {
