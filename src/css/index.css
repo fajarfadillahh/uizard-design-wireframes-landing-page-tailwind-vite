@@ -71,3 +71,17 @@
 .features__content-video {
   @apply rounded-2xl;
 }
+
+/* ===== CATEGORY SECTION ===== */
+.category__group {
+  @apply grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] justify-center gap-12;
+}
+.category__content-img {
+  @apply rounded-xl;
+}
+.category__content-data {
+  @apply p-6;
+}
+.category__content-title {
+  @apply text-[20px] text-black font-semibold;
+}
