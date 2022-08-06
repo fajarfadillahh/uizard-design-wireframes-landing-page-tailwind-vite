@@ -59,3 +59,15 @@
     transform: translate(-50%);
   }
 }
+
+/* ===== FEATURES SECTION ===== */
+.features__content {
+  @apply grid gap-12;
+}
+.features__content-data,
+.features__content-video {
+  @apply justify-self-center;
+}
+.features__content-video {
+  @apply rounded-2xl;
+}
