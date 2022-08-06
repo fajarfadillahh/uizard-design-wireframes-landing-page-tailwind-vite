@@ -85,3 +85,48 @@
 .category__content-title {
   @apply text-[20px] text-black font-semibold;
 }
+
+/* ===== PRICING SECTION ===== */
+.pricing__group {
+  @apply grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] justify-center gap-12;
+}
+.pricing__content {
+  @apply grid gap-8 py-12 px-8 bg-[rgba(0,0,0,0.1)] rounded-xl;
+}
+.pricing__content-class {
+  @apply text-[20px] text-black font-semibold mb-2;
+}
+.pricing__content-price,
+.pricing__content-text {
+  @apply text-[15px] text-black;
+}
+.pricing__content-number {
+  @apply text-[52px] text-black font-semibold;
+}
+.pricing__content-list {
+  @apply flex flex-col gap-2;
+}
+.pricing__content-item {
+  @apply inline-flex items-center gap-2 text-[15px] text-black;
+}
+.pricing__content-icon {
+  @apply inline-flex text-[1.5rem] text-black;
+}
+.pricing__content-button {
+  @apply ring-2 ring-yellow bg-[rgba(255,198,0,0.2)] text-black;
+}
+/* second pricing */
+.pricing__content:nth-child(2) {
+  @apply bg-black;
+}
+.pricing__content:nth-child(2) .pricing__content-class,
+.pricing__content:nth-child(2) .pricing__content-price,
+.pricing__content:nth-child(2) .pricing__content-text,
+.pricing__content:nth-child(2) .pricing__content-number,
+.pricing__content:nth-child(2) .pricing__content-item,
+.pricing__content:nth-child(2) .pricing__content-icon {
+  @apply text-white;
+}
+.pricing__content:nth-child(2) .pricing__content-button {
+  @apply ring-white bg-white;
+}
