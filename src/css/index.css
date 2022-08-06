@@ -153,3 +153,23 @@
 .blog__content-read {
   @apply py-1 px-2 text-[15px] text-white bg-black rounded-full;
 }
+
+/* ===== FOOTER SECTION ===== */
+.footer__group {
+  @apply grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))] justify-center gap-16;
+}
+.footer__data-icon {
+  @apply w-28 mb-4;
+}
+.footer__data-text {
+  @apply text-[15px] text-grey;
+}
+.footer__content-title {
+  @apply text-[20px] text-black font-semibold mb-6;
+}
+.footer__content-list {
+  @apply flex flex-col gap-3;
+}
+.footer__content-link {
+  @apply text-[15px] text-grey hover:underline;
+}
