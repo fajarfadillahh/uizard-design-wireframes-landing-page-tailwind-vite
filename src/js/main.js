@@ -13,9 +13,19 @@ function shoewMenu(menuId, toggleId) {
 }
 shoewMenu("header-menu", "header-toggle");
 
-// ==== SCROLLUP SECTION =====
+// ==== STICKY HEADER =====
 const scrollY = window.pageYOffset;
 
+function stickyHeader() {
+  const header = document.getElementById("header");
+
+  this.scrollY > 5
+    ? header.classList.add("sticky-action")
+    : header.classList.remove("sticky-action");
+}
+window.addEventListener("scroll", stickyHeader);
+
+// ==== SCROLLUP SECTION =====
 function scrollUp() {
   const scrollup = document.getElementById("scroll-up");
 

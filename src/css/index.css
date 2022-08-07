@@ -46,6 +46,10 @@
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }
+/* sticky header */
+.header.sticky-action {
+  @apply shadow-[0_2px_12px_rgba(0,0,0,0.1)];
+}
 
 /* ===== MARQUEE TEXT SECTION ===== */
 .marquee__text {
