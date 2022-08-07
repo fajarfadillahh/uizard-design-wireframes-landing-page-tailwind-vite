@@ -307,3 +307,29 @@
     @apply flex justify-between items-start;
   }
 }
+
+/* width 1120px */
+@screen xl {
+  .section-title {
+    @apply text-[48px];
+  }
+
+  .home__title {
+    @apply text-[64px];
+  }
+
+  .blog__data {
+    @apply w-[600px];
+  }
+  .blog__text {
+    @apply w-[500px] mx-auto;
+  }
+
+  .callback__title,
+  .callback__text {
+    @apply w-[350px];
+  }
+  .callback__img {
+    @apply w-[700px];
+  }
+}
