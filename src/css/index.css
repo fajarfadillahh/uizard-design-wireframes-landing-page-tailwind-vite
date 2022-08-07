@@ -182,3 +182,18 @@
 .scrollup.scroll-action {
   @apply bottom-12;
 }
+
+/* ===== MEDIA QUERIES ===== */
+@screen xs {
+  .home__data,
+  .features__content-data,
+  .blog__data,
+  .callback__data {
+    @apply w-[400px];
+  }
+
+  .home__video,
+  .features__content-video {
+    @apply w-[400px];
+  }
+}
